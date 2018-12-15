@@ -1,0 +1,35 @@
+<html>
+
+<head></head>
+
+<body>
+
+	<div align="center">
+		<br><br><br><br><br><br><br>
+		<h1 id="quote" style="color:red"></h1>
+	</div>
+	<script>
+		var showquote=[
+        "... a mind needs books as a sword needs a whetstone, if it is to keep its edge." ,
+        "Fear cuts deeper than swords.",
+        "Winter is coming.",
+        "When you play a game of thrones you win or you die.",
+        "Most men would rather deny a hard truth than face it." ,
+        "Every flight begins with a fall." ,
+        "Never forget what you are, for surely the world will not. Make it your strength. Then it can never be your weakness. Armour yourself in it, and it will never be used to hurt you." ,
+        "When the snows fall and the white winds blow, the lone wolf dies but the pack survives.",
+        "Once you’ve accepted your flaws, no one can use them against you." ,
+        "What do we say to the Lord of Death?"
+
+
+      ];
+      randNumber = Math.floor((Math.random() * 10)+1);
+  
+      
+      document.getElementById("quote").innerHTML = showquote[randNumber-1];
+	</script>
+
+
+</body>
+
+</html>
